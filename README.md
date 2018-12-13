@@ -4,7 +4,7 @@ The LimeSurvey-plugin LotteryBoost helps you to randomly choose a winner for you
 
 ## Getting Started
 
-LimeSurvey is a service for online-surveys. The data can be stored local which allows control over the examined data. Even though LimeSurvey provides many benefits, it lacks - without LotteryBoost - in including a lottery at the end of an online-survey. So far, to guarantee anonymity, LimeSurvey users had to create an extra survey for the lottery which they had to attach to their survey. The data for the lottery was saved in a new table which was not intuitive to find. Further, anonymity used to be slightly restricted because the data of the original survey was in the same order as the data for the lottery. 
+LimeSurvey is a service for online-surveys. The data can be stored local which allows control over the examined data. Even though LimeSurvey provides many benefits, it lacks - without LotteryBoost - in including a lottery at the end of an online-survey. So far, to guarantee anonymity, LimeSurvey users had to create an extra survey for the lottery which they had to attach to their survey. The data for the lottery was saved in a new table which was not intuitive to find. Further, anonymity used to be slightly restricted because the data of the original survey was in the same order as the data of the lottery. 
 The Plugin addresses these problems. The lottery can be easily included in the original online-survey. The email-addresses for the lottery are automatically saved in a new, separate table in an alphabetically order. By that, anonymity is fully guaranteed. At the end of the survey, LotteryBoost will pick out randomly the winners whereby the users can determine the amount of winners. 
 
 ## How to use it
