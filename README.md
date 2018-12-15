@@ -8,32 +8,17 @@ LimeSurvey is a service for online-surveys. The data can be stored local which a
 The Plugin addresses these problems. The lottery can be easily included in the original online-survey. The email-addresses for the lottery are automatically saved in a new, separate table in an alphabetically order. By that, anonymity is fully guaranteed. At the end of the survey, LotteryBoost will pick out randomly the winners whereby the users can determine the amount of winners. 
 
 ## How to use it
+tbd
 
 ## Code Examples
-
-    //SQL-Code
-    //Duplication checked by PRIMARY KEY - participants cannot enter their email-addresses twice
-    $this->connection->createCommand("CREATE TABLE IF NOT EXISTS $wingametable (mails VARCHAR(150) PRIMARY KEY NOT NULL);)->execute();
-    
-    //Move email-address from the survey table into the new created table
-     $this->connection->createCommand("INSERT INTO $wingametable('mails') SELECT $sSgqaCode FROM $tableName WHERE $sSgqaCode IS NOT               NULL;")->excute();
-     
-     //Set email-addresses in survey table NULL
-     $this->connection->createCommand("UPDATE $tableName SET $sSgqaCode = NULL;")->execute();
-     
-     //Order the content of the new table alphabetically
-     $this->connection->createCommand("SELECT * FROM $wingametable ORDER BY 'mails';")->execute();
+tbd
 
 ## Authors
 
-The plugin has been developed by the research chair [Professional Communication in Electronic Media / Social Media, University of Duisburg Essen](https://www.uni-due.de/proco/index_en.php)
-
-    Prof. Dr. Stefan Stieglitz - Professor
-    Tobias Kroll - initial work
-    Eric 
-    Melina Paßfeld
-    Andere Studenten
+The plugin has been developed by students at the chair of [Professional Communication in Electronic Media / Social Media, University of Duisburg Essen](https://www.uni-due.de/proco/index_en.php).
 
 ## License
 
-See the [LICENSE](https://github.com/procoude/pp-limesurvey-1/blob/master/LICENSE) file for license rights and limitations.
+This plugin is licenced under the GPL 2.0.
+The LimeSurvey Logo ista registered trademarks of LimeSurvey GmbH, Hamburg, Germany.
+
