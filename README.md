@@ -22,9 +22,10 @@ At the end of the survey, LotteryBoost will pick out randomly the winners whereb
 tbd
 
 ## Disclaimer / Status of the plugin
-Not suitable for production environment
 
-No guarantee nor responsibility for data loss or other damages
+In case you decide to use this Plugin, you understand that LotteryBoost is not suitable for a productoin environment. Further, you understand and agree that we will not be liable to you or any third party for any loss of profits, use, goodwill, or - in this case especially important - data, or for any incidental, indirect, special, consequential or exemplary damages, however arising.
+
+Our liability is limited whether or not we have been informed of the possibility of such damages, and even if a remedy set forth in this Agreement is found to have failed of its essential purpose. We will have no liability for any failure or delay due to matters beyond our reasonable control.
 
 ## Code Examples
 ```php
