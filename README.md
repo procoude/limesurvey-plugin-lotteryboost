@@ -19,7 +19,18 @@ By that, anonymity is fully guaranteed.
 At the end of the survey, LotteryBoost will pick out randomly the winners whereby the users can determine the amount of winners. 
 
 ## How to use it
-tbd
+
+To use this Plugin, you can either download LotteryBoost in one zip file and then unzip it in your LimeSurvey installation. Or, if you prefer, you can use GitHub and fork LotteryBoost via GIT to use it. At the end, make sure that you activate the PluginManager in your Limesurvey settings.
+
+Via ZIP dowload
+
+    Get the LotteryBoost file and unzip it
+    Move the file included to plugins/limesurvey-plugin-lotteryboost directory
+
+Via GIT
+
+    Go to your LimeSurvey Directory 
+    Clone in plugins/limesurvey-plugin-lotteryboost directory
 
 ## Disclaimer / Status of the plugin
 
