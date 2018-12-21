@@ -6,9 +6,11 @@ At the end of the survey, you can choose the number of winners for your lottery 
 
 ## Getting Started
 
-LimeSurvey is a web software for online surveys. The data can be stored on-premise which allows control as regards data safety and privacy requirements.
+LimeSurvey is a web software for online surveys.
+The data can be stored on-premise which allows control as regards data safety and privacy requirements.
 
-Even though LimeSurvey provides many benefits, it lacks a lottery at the end of an online-survey. So far, to guarantee anonymity, LimeSurvey users had to create an extra survey for the lottery which they had to attach to their survey.
+Even though LimeSurvey provides many benefits, it lacks a lottery at the end of an online-survey.
+So far, to guarantee anonymity, LimeSurvey users had to create an extra survey for the lottery which they had to attach to their survey.
 The data for the lottery was saved in a new table which was not intuitive to find.
 Further, anonymity used to be slightly restricted because the data of the original survey was in the same order as the data of the lottery. 
 
@@ -18,27 +20,21 @@ The email addresses for the lottery are automatically saved in a new, separate t
 By that, anonymity is fully guaranteed.
 At the end of the survey, LotteryBoost will pick out randomly the winners whereby the users can determine the amount of winners. 
 
-## How to use it
+## How install the plugin
 
 To use this Plugin, you can either download LotteryBoost in one zip file and then unzip it in your LimeSurvey installation. Or, if you prefer, you can use GitHub and fork LotteryBoost via GIT to use it. At the end, make sure that you activate the PluginManager in your Limesurvey settings.
 
 Via ZIP dowload
 
     Get the LotteryBoost file and unzip it
-    Move the file included to plugins/limesurvey-plugin-lotteryboost directory
+    Move the file included to the your LimeSurvey's /plugins directory
 
 Via GIT
 
     Go to your LimeSurvey Directory 
     Clone in plugins/limesurvey-plugin-lotteryboost directory
     
-In case you have further questions or trubbles to install the Plugin, this [Limesurvey protocol](https://manual.limesurvey.org/Plugin_manager) might help you and answer your questions.
-
-## Disclaimer / Status of the plugin
-
-In case you decide to use this Plugin, you understand that LotteryBoost is not suitable for a productoin environment. Further, you understand and agree that we will not be liable to you or any third party for any loss of profits, use, goodwill, or - in this case especially important - data, or for any incidental, indirect, special, consequential or exemplary damages, however arising.
-
-Our liability is limited whether or not we have been informed of the possibility of such damages, and even if a remedy set forth in this Agreement is found to have failed of its essential purpose. We will have no liability for any failure or delay due to matters beyond our reasonable control.
+In case you have further questions or trouble to install the plugin, this [Limesurvey protocol](https://manual.limesurvey.org/Plugin_manager) might help you and answer your questions.
 
 ## Code Examples
 ```php
@@ -63,6 +59,14 @@ Our liability is limited whether or not we have been informed of the possibility
 	    return ($this->get('bAdminReceive','Survey',$sSurveyId)==0);
 	}
 ```
+
+## Disclaimer / Status of the plugin
+
+In case you decide to use this plugin, you understand that LotteryBoost is potentially not yet suitable for a productoin environment.
+Further, you understand and agree that we will not be liable to you or any third party for any loss of profits, use, goodwill, or - in this case especially important - data, or for any incidental, indirect, special, consequential or exemplary damages, however arising.
+
+Our liability is limited whether or not we have been informed of the possibility of such damages, and even if a remedy set forth in this Agreement is found to have failed of its essential purpose.
+We will have no liability for any failure or delay due to matters beyond our reasonable control.
 
 ## Authors
 
